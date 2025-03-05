@@ -26,9 +26,9 @@ jobs:
     - name: Set Permissions      
       run: chmod -R 755 ./
     - name: Run tests            
-      run: ./Run.command -run -project_location "Projects/ING-Public-Web" -release "Release1" -testset "Set1"
+      run: ./Run.command -run -project_location "Projects/TADNL25" -release "Release1" -testset "Set1"
     - name: Upload Reports       
       uses: actions/upload-artifact@v4.3.6
       with:
         name: Execution Reports
-        path: Projects/ING-Public-Web/Results/TestExecution/Release1/Set1/Latest
+        path: Projects/TADNL25/Results/TestExecution/Release1/Set1/Latest

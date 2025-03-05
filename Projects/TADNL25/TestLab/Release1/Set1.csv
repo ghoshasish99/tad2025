@@ -1,0 +1,6 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,Mytest,Mytest,Single,Failed,Chromium,Default,Any
+true,Mytest,Mytest,Single,Passed,WebKit,Default,Any
+true,Mytest,Mytest,Single,Passed,Firefox,Default,Any
+true,API,GET,Single,NoRun,No Browser,Default,Any
+true,API,POST,Single,NoRun,No Browser,Default,Any

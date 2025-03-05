@@ -1,0 +1,21 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,SauceDemo:URL,,
+2,username,Enter the value [<Data>] in the Field [<Object>],Fill,SauceDemo:username,,Mytest
+3,password,Enter the value [<Data>] in the Field [<Object>],Fill,SauceDemo:password,,Mytest
+4,login-button,"Click the [<Object>] ",Click,,,Mytest
+5,General,This a dummy function helpful with testing.,filler,,Start Param,
+6,Product,Set object [<Object>] property  as [<Data>] at runtime,setObjectProperty,SauceDemo:product,"#item",Mytest
+7,Product,Highlight the element [<Object>],Highlight,,,Mytest
+8,Product,"Click the [<Object>] ",Click,,,Mytest
+9,General,This a dummy function helpful with testing.,filler,,End Param:@1,
+10,shopping-cart-link,"Click the [<Object>] ",Click,,,Mytest
+11,checkout,"Click the [<Object>] ",Click,,,Mytest
+12,Synthetic Data,Set Faker locale for testing,setLocale,@DE,,
+13,Synthetic Data,Generate a random first name,firstName,SauceDemo:firstName,,
+14,firstName,Enter the value [<Data>] in the Field [<Object>],Fill,SauceDemo:firstName,,Mytest
+15,lastName,Enter the value [<Data>] in the Field [<Object>],Fill,SauceDemo:lastName,,Mytest
+16,postalCode,Enter the value [<Data>] in the Field [<Object>],Fill,SauceDemo:zip,,Mytest
+17,continue,"Click the [<Object>] ",Click,,,Mytest
+18,subtotal-label,"Click the [<Object>] ",Click,,,Mytest
+19,finish,"Click the [<Object>] ",Click,,,Mytest
+20,Success Message,"Click the [<Object>] ",assertElementIsVisible,,,Mytest

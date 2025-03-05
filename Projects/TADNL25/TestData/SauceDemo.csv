@@ -1,0 +1,4 @@
+Scenario,Flow,Iteration,SubIteration,URL,username,password,firstName,lastName,zip,product
+Mytest,Mytest,1,1,https://www.saucedemo.com/,standard_user,secret_sauce,Steffen,Ghosh,1111KE,bike-light
+Mytest,Mytest,1,2,,,,,,,fleece-jacket
+Mytest,Mytest,1,3,,,,,,,bolt-t-shirt
